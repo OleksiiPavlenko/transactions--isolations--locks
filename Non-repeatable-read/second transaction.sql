@@ -1,0 +1,8 @@
+﻿begin ISOLATION LEVEL REPEATABLE READ;
+SELECT *
+FROM users;
+
+SELECT *
+FROM users;
+
+COMMIT;
